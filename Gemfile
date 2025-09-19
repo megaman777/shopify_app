@@ -9,5 +9,5 @@ gem "rails-controller-testing", group: :test
 gem "rails", "< 7" # temporary: https://github.com/Shopify/shopify_app/pull/1561
 
 group :rubocop do
-  gem "rubocop-shopify", require: false
+  gem "rubocop-shopify", ">= 2.14.0", require: false
 end
